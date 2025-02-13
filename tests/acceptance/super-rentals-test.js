@@ -16,6 +16,6 @@ module('Acceptance | super rentals', function (hooks) {
     assert.dom('.jumbo a.button').hasText('About Us');
     await click('.jumbo a.button');
 
-    assert.strictEqual(currentURL(), '/about');
+    assert.strictEqual(currentURL(), '/about'); 
   });
 });
